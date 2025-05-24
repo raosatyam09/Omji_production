@@ -73,16 +73,11 @@ const Career = () => {
       <button type="submit" className="bg-blue-600 text-white p-2 mt-8 rounded-md cursor-pointer w-[10vw] text-lg font-bold "> Apply </button>
   </div> 
 
-  
-
-
-
       </form>
       </div>
   </div>
   
-
-  
   </div>;
 };
+
 export default Career;
