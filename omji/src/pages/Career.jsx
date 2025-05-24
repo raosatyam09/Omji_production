@@ -26,47 +26,47 @@ const Career = () => {
 
     <div className="m-4">
         <label> Name </label>
-        <input type="text" name="name" className=" rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 w-[50%]" ></input>
+        <input type="text" required name="name" className=" rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 w-[50%]" ></input>
    </div>
 
    <div className="m-4">
         <label> Age </label>
-        <input type="number" min="0" step="1"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
+        <input type="number" required min="0" step="1"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
     </div>
 
     <div className="m-4">
         <label> Email </label>
-        <input type="email" name="email" className=" rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
+        <input type="email" required name="email" className=" rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
      </div>
 
       <div className="m-2">
         <label> Number </label>
-        <input type="number" min="0" step="1"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
+        <input type="tel" required pattern="[0-9] {10}" maxLength="10"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
     </div>
 
      <div className="m-4">
         <label> Address </label>
-        <input type="textarea" name="address" className="rounded-md  ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
+        <input type="textarea" required name="address" className="rounded-md  ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
      </div>
 
      <div className="m-4">
         <label>Job Profile </label>
-        <input type="text" name="job" className="rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
+        <input type="text" required name="job" className="rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
     </div> 
 
     <div className=" m-4">
         <label>Experience (in year) </label> 
-        <input type="number" min="0" step="1" name="experience" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
+        <input type="number" required min="0" step="1" name="experience" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
     </div>
 
     <div className="m-4">
         <label>Upload Profile</label>
-        <input type="file" accept=".jpg, .png, video/mp4, .pdf .mov/*" name="job" className="rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 w-[50%]"></input>
+        <input type="file" required accept=".jpg, .png, video/mp4, .pdf .mov/*" name="job" className="rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 w-[50%]"></input>
     </div> 
 
     <div className=" m-4">  
         <label> why you think you are suitable for this role ? </label>
-        <input type="textarea" name="message" className="rounded-md border-b  focus:outline-none focus:border-blue-800 p-2 rounded-md w-[20vw] ml-4"></input>
+        <input type="textarea" required name="message" className="rounded-md border-b  focus:outline-none focus:border-blue-800 p-2 rounded-md w-[20vw] ml-4"></input>
     </div> 
 
   <div className=" m-4 text-center "> 
