@@ -59,6 +59,11 @@ const Career = () => {
         <input type="number" name="experience" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
     </div>
 
+    <div className="m-4">
+        <label>Upload Profile</label>
+        <input type="file" accept=".jpg, .png, .video, .pdf/*" name="job" className="rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 w-[50%]"></input>
+    </div> 
+
     <div className=" m-4">  
         <label> why you think you are suitable for this role ? </label>
         <input type="textarea" name="message" className="rounded-md border-b  focus:outline-none focus:border-blue-800 p-2 rounded-md w-[20vw] ml-4"></input>
@@ -66,7 +71,12 @@ const Career = () => {
 
   <div className=" m-4 text-center "> 
       <button type="submit" className="bg-blue-600 text-white p-2 mt-8 rounded-md cursor-pointer w-[10vw] text-lg font-bold "> Apply </button>
-     </div> 
+  </div> 
+
+  
+
+
+
       </form>
       </div>
   </div>
