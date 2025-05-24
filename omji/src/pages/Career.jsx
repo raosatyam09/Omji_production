@@ -61,7 +61,7 @@ const Career = () => {
 
     <div className="m-4">
         <label>Upload Profile</label>
-        <input type="file" accept=".jpg, .png, .video, .pdf/*" name="job" className="rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 w-[50%]"></input>
+        <input type="file" accept=".jpg, .png, video/mp4, .pdf .mov/*" name="job" className="rounded-md ml-4 border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 w-[50%]"></input>
     </div> 
 
     <div className=" m-4">  
