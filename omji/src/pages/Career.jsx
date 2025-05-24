@@ -31,7 +31,7 @@ const Career = () => {
 
    <div className="m-4">
         <label> Age </label>
-        <input type="number"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
+        <input type="number" min="0" step="1"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
     </div>
 
     <div className="m-4">
@@ -41,7 +41,7 @@ const Career = () => {
 
       <div className="m-2">
         <label> Number </label>
-        <input type="number"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
+        <input type="number" min="0" step="1"  name="age" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]" ></input>
     </div>
 
      <div className="m-4">
@@ -56,7 +56,7 @@ const Career = () => {
 
     <div className=" m-4">
         <label>Experience (in year) </label> 
-        <input type="number" name="experience" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
+        <input type="number" min="0" step="1" name="experience" className="no-spinner ml-4 rounded-md border-b border-gray-200 focus:outline-none focus:border-blue-800 p-2 rounded-md w-[50%]"></input>
     </div>
 
     <div className="m-4">
